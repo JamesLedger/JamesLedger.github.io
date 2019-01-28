@@ -1,0 +1,12 @@
+Primary
+
+#64b5f6
+
+
+P — Light
+
+#9be7ff
+
+P — Dark
+
+#2286c3
