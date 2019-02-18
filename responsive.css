@@ -22,8 +22,29 @@ h1 {
 p {
 	font-size: 1em;
 	}
-	
-	
+
+#type2 {
+	width:47.5%;
+	background-color:#999999;
+}
+#type3 p{
+float:left;
+}	
+#type3 img{
+float:right;
+width:40%;
+height:auto;
+
+}	
+#type3{
+width:97.5%;
+background-color: #999999;
+}
+#page2{
+	background-color:#111111;
+	width:97.5%;
+}	
+			
 #container {
 	padding: 0;
 	margin: 0 auto;
@@ -101,8 +122,8 @@ section {
 
 
 article{
-	width: 31.5%;
-	height: 15%;
+	width: 98%;
+	height: 300px;
 	margin-left: 0.25em;
 	margin-right: 0.25em;
 	margin-top: 0.5em;
@@ -111,7 +132,7 @@ article{
 	background-color: #9be7ff;
 	float: left;
 	padding-top: 0.25em;
-	height:auto;
+	
 	font-size:1.5em;
 	}
 li a:hover {
