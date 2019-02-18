@@ -4,8 +4,8 @@ background-color: #ffffff;
 
 body 	
 	{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 0%;
+	padding-right: 0%;
 	background-color: #9be7ff
 	}
 	
@@ -28,86 +28,107 @@ p {
 	padding: 0;
 	margin: 0 auto;
 	background-color: #9be7ff;
-	width: 1224px;
-	height: auto;
 	width: 100%;
+	height: auto;
+	
 font-family: Arial, Helvetica, sans-serif;
 	}
 	
 	
 header {
-	height: 50px;
-	margin: 10px;
+	height: 10%;
+	margin: 0px;
 	text-align: center;
+	padding-bottom:9em;
 
 	}
 
 img{
 	float: left;
-	padding-left:3em;
-	padding-bottom:3em;
+	width: 100%
 	}
 	
 nav  {
 	margin-left: 0em;
-	float:left;
+	float:center;
 	background-color: #9be7ff;
+	width:97.5%;
 	;
 }
 
 
 nav ul {
-	padding: 1em 1em 1em 1em;
+	padding: 1em;
+	padding-top: 2em;
 	list-style-type: none;
 	text-align: center;
 	background-color: #9be7ff;
 	color:  #9be7ff;
 	width: 100%;
 	}
-	
+
+nav img {
+	width: 20%;
+}
 	
 nav a {text-decoration: none;}	
 
 	
 nav li {
-	margin-top: 1.2em;
+	margin-top: 0em;
 	display: inline;
-	font-size: 3.5em;
+	font-size: 2em;
 	background-color:  #9be7ff; 
-	margin: 1em;
+	margin: 0em;
+	color:white;
+	
 	}
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 	
 	
 section {
-	margin: 10px;
+	margin: 0px;
 	width: auto;
-	padding: 10px;
+	padding: 0px;
 	color: #000000;
 	}
 
 
 article{
-	width: 30%;
+	width: 31.5%;
 	height: 15%;
-	margin: 0.5em;
-	padding: 0.3em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.25em;
 	background-color: #9be7ff;
 	float: left;
-	padding-top: 0.5em;
+	padding-top: 0.25em;
 	height:auto;
 	font-size:1.5em;
 	}
+li a:hover {
+  background-color: #666666;
+}
 
 footer {
 	clear: both;
-	height: auto;
-	margin-top: 10px;
+	width: 100%;
+	height: 5%;
+	margin-top: 2em;
 	background-color: #9be7ff;
-	margin-left:auto;
-	margin-right: auto;
+	margin-left:0;
+	margin-right: 0;
 	}
 
-@media (max-width:800px) {
+@media (max-width:900px) {
 	nav {
 		width: 40%;
 	}
@@ -120,14 +141,29 @@ footer {
 }
 @media (max-width:460px){
 	nav{
-		width:80%;
+		width:92%;
 		float:center;
+		font-size:8px;
 	}
 	nav li{
 		display:block;
 	}
 	p {
 		font-size:8px;
+	}
+	article{
+	width: 27%;
+	height: 15%;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.25em;
+	background-color: #9be7ff;
+	float: left;
+	padding-top: 0.25em;
+	height:auto;
+	font-size:1.5em;
 	}
 	
 }
