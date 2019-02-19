@@ -29,6 +29,7 @@ p {
 }
 #type3 p{
 float:left;
+width:60%;
 }	
 #type3 img{
 float:right;
@@ -38,6 +39,7 @@ height:auto;
 }	
 #type3{
 width:97.5%;
+height:auto;
 background-color: #999999;
 }
 #page2{
