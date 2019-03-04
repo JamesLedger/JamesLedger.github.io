@@ -20,7 +20,7 @@ h1 {
 	}	
 	
 p {
-	font-size: 1em;
+	font-size: 0.8em;
 	}
 
 #type2 {
@@ -40,7 +40,7 @@ height:auto;
 #type3{
 width:97.5%;
 height:auto;
-background-color: #999999;
+background-color: #ffffff;
 }
 #page2{
 	background-color:#111111;
@@ -85,7 +85,7 @@ nav ul {
 	padding-top: 2em;
 	list-style-type: none;
 	text-align: center;
-	background-color: #9be7ff;
+	background-color: #2a89a5;
 	color:  #9be7ff;
 	width: 100%;
 	}
@@ -101,7 +101,7 @@ nav li {
 	margin-top: 0em;
 	display: inline;
 	font-size: 2em;
-	background-color:  #9be7ff; 
+	background-color:  #2a89a5; 
 	margin: 0em;
 	color:white;
 	
