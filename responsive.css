@@ -25,18 +25,28 @@ p {
 
 #type2 {
 	width:47.5%;
-	background-color:#999999;
+	padding: 0;
+	height:10%;
+}
+#type2 img{
+	width:100%;
+	height:auto;
+	
 }
 #type3 p{
 float:left;
-width:60%;
+float:top;
+
+
 }	
 #type3 img{
 float:right;
+
 width:40%;
 height:auto;
 
 }	
+
 #type3{
 width:97.5%;
 height:auto;
