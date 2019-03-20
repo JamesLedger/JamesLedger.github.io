@@ -39,6 +39,9 @@ float:top;
 
 
 }	
+#type3 a{
+color: blue;
+}
 #type3 img{
 float:right;
 
@@ -147,7 +150,7 @@ article{
 	
 	font-size:1.5em;
 	}
-li a:hover {
+nav li a:hover {
   background-color: #666666;
 }
 
